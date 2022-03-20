@@ -1,0 +1,20 @@
+{
+  "name": "bases-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yeison2020/bases-node-pasos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yeison2020/bases-node-pasos/issues"
+  },
+  "homepage": "https://github.com/Yeison2020/bases-node-pasos#readme"
+}
