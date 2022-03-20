@@ -1,7 +1,8 @@
 const http = require("http");
 
 const server = http.createServer((req, res) => {
-  res.write("Hello World");
+  res.writeHead(404);
+  res.write("404 Page not foud");
   res.end();
 });
 
