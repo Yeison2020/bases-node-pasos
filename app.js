@@ -1,8 +1,15 @@
 const http = require("http");
 
 const server = http.createServer((req, res) => {
-  res.writeHead(404);
-  res.write("404 Page not foud");
+  res.writeHead(200, {
+    "Content-Type": "application/json",
+  });
+
+  const person = {
+    name: "yeison",
+    lastName: "casado",
+  };
+  res.write(JSON.stringify(person));
   res.end();
 });
 
